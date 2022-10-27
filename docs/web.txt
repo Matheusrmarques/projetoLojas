@@ -1,0 +1,17 @@
+Script de automação         --> Eu programei
+                                Eu gravei e exportei (Se IDE)
+
+Selenium Webdriver (por programação)
+        --> Preciso Driver
+            - Cada Versão de navegador pode procisar de um driver especifico
+            - Há 3 formar de organizar isso:
+                1 - Realizar o download do driver no fornecedor e 
+                    adicionar ao projeto
+                2 - Realizar o download do driver no fornecedor, mas 
+                    adicionar em uma pasta raiz na maquina em
+                    apontar para essa pasta nas variaveis de ambiente
+                3 - Utilizar o pacote WebDriverManager
+
+
+Instalação de pacotes (comando necessario para cada projeto)
+npm install --save-dev selenium-webdriver chromedriver jest mocha chai
